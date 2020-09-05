@@ -10,6 +10,6 @@
 
 ## License
 
-This project is licensed under the MIT Licence - see {License.md} for details
+This project is licensed under the MIT Licence - see [License.md](LICENSE.md) for details
 
 ## Acknowledgements
