@@ -119,17 +119,19 @@
     </p>
 
     <!--Section: Div and Span-->
-    <div>
+    <!--Semantic HTML(5) (09082020)-->
+    <header> <!--HTML5 syntax-->
         <!--Header section of page-->
         <h1>Welcome to My Blog</h1>
-
+    </header>
+    <nav> <!--HTML5 syntax-->
         <ul>
             <a href=""><li>Home</li></a>
             <a href=""><li>About</li></a>
             <a href=""><li>Contact</li></a>
         </ul>
         <!--End section of page-->
-    </div>
+    </nav>
 
     <!--Feature Image-->
     <div>
@@ -137,26 +139,48 @@
     </div>
 
     <!--Blog-->
-    <div>
-        <pr>
-            Lorem <span> dolor sit amet</span>consectetur adipisicing elit. Quasi quaerat voluptatibus praesentium 
-            temporibus numquam dolorem fuga consectetur deleniti, vitae ducimus iste doloribus natus saepe 
-            ipsum maxime labore et. Quidem, aut.
-        </pr>
+    <section>
+        <article>
+            <pr>
+                Lorem <span> dolor sit amet</span>consectetur adipisicing elit. Quasi quaerat voluptatibus praesentium 
+                temporibus numquam dolorem fuga consectetur deleniti, vitae ducimus iste doloribus natus saepe 
+                ipsum maxime labore et. Quidem, aut.
+            </pr>
+        </article>
         <br />
-        <pr>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi quaerat voluptatibus praesentium 
-            temporibus numquam dolorem fuga consectetur deleniti, vitae ducimus iste doloribus natus saepe 
-            ipsum maxime labore et. Quidem, aut.
-        </pr>
-    </div>
-
+        <article>
+            <pr>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi quaerat voluptatibus praesentium 
+                temporibus numquam dolorem fuga consectetur deleniti, vitae ducimus iste doloribus natus saepe 
+                ipsum maxime labore et. Quidem, aut.
+            </pr>
+        </article>
+    </section>
     <!--End section-->
 
-    <!--Section: End of website-->
-    <p>
-       &copy; Our website &amp; Our website 
-    </p>
+    <!--Section: IDs and classes-->
+    <h1>Id and classes</h1>
+    <!--ID is unique and only can be used by a single element-->
+    <p id="uniqueID">This is a paragraph with ID</p>
+    <!--Classes are global and can be shared by multiple elements-->
+    <p class="globalClass">This is a paragraph with class</p>
 
+    <h2 class="blogHeading">Taling about ID's</h2>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Et earum beatae recusandae illum voluptates rem voluptatem corporis, corrupti consequuntur, dicta, debitis sed quisquam explicabo aperiam maxime in quae vero a.
+    </p>
+    <br />
+    <h2 class="blogHeading">Tlaking abput class</h2>
+    <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut numquam ipsum, reprehenderit veritatis optio ad sunt. Suscipit minus et debitis nemo rerum dignissimos reiciendis labore, totam, delectus modi dolorum sequi!
+    </p>
+    <!--End Section-->
+
+    <!--Section: End of website-->
+    <footer><!--Footer tag for HTML5-->
+        <p>
+            &copy; &amp; Our website. Copyrights reserverd
+        </p>
+    </footer>
 </body>
 </html>
