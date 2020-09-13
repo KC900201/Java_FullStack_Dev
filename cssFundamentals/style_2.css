@@ -1,0 +1,15 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.sidebar {
+    width: 500px;
+    height: 600px;
+    float: right; /*Floating to appear as sidebar*/
+    background-color: #ededed;
+}
+
+.column {
+    width: 300px;
+    float: left;
+}
