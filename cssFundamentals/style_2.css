@@ -1,5 +1,117 @@
+/* Main Styles */
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+#logo {
+    display: block;
+    margin: auto;
+    padding: 50px;
+    width: 20%;
+}
+
+header {
+    background: url(../htmlFundamentals/img/Free-Pink-Background-Vector.jpg); 
+    background-size: cover;
+}
+
+.topnav {
+    padding: 10px;
+    overflow: hidden;
+    background: #d1d5e5;
+    letter-spacing: 2px;
+}
+
+ul li {
+    display: inline;
+    list-style-type: none;
+    font-family: 'Caveat', cursive;
+    font-size: 22px;
+}
+
+ul {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    padding: 12px;
+    color: #fff;    
+}
+
+iframe {
+    padding: 160px;
+    display: block;
+    margin: auto;
+}
+
+.merch {
+    padding: 40px;
+    text-align: center;
+    font-family: 'Rock Salt', cursive;
+}
+
+#merch {
+    color: #01D5E5;
+}
+
+.merchItems {
+    width: 20%;
+}
+
+.main-section {
+    background: url(../htmlFundamentals/img/Ebisu_Muscats.jpg) no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+h3 {
+    color: #01D5E5;
+    font-family: 'Rock Salt', cursive;
+    font-size: 30px;
+    text-align: center;
+    padding: 20px;
+}
+
+h4 {
+    font-family: 'Caveat', cursive;
+    color: #9995C9;
+    font-size: 25px;
+}
+
+.blogSection {
+    float: left;
+    padding: 50px;
+    padding-left: 350px;
+    width: 800px;
+}
+
+.blogStyles {
+    height: 500px;
+}
+
+.blogImage {
+    float: left;
+    padding: 5px 10px;
+}
+
+p {
+    padding: 10px;
+}
+
+.sidebar_2 {
+    width: 620px;
+    height: 500px;
+    padding: 40px;
+    float: right; /*Floating to appear as sidebar*/
+    background-color: #d1d5e5;
 }
 
 .sidebar {
@@ -12,4 +124,9 @@ body {
 .column {
     width: 300px;
     float: left;
+}
+
+/* Media Queries*/
+@media screen and (max-width: 1082px) {
+
 }

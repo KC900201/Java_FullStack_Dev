@@ -1,0 +1,23 @@
+.column {
+    width: 500px;
+    float: left;
+    padding: 20px;
+}
+
+/*Responsive design*/
+@media screen and (max-width: 768px) and (min-width: 600px) {
+    body {
+        background: #5291aa;
+        color: white;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    body {
+        background-color: rgb(155, 93, 155);
+    }
+
+    .column {
+        width: 250px;
+    }
+}
