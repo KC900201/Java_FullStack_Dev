@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    text-align: center;
+    color: rgb(88, 80, 80);
+}
+
+nav li {
+    display: inline-block;
+    font-family: 'Kufam', cursive, monospace;
+    font-size: 15px;
+    padding: 5px;
+    color:  #000;
+}
+
+header {
+    text-align: center;
+    background: url(../htmlFundamentals/img/profile_img.jpg) no-repeat center;
+    background-size: cover;
+    overflow: hidden;
+    height: 960px;
+}
+
+.logo {
+    padding-top: 420px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 50px;
+    color: #fff;
+}
+
+.blurb {
+    background-color: #909090;
+    height: 100px;
+    padding-top: 100px;
+    font-family: 'Kufam', cursive, monospace;
+    letter-spacing: 5px;
+    color: #fff;
+}
+
+#about-header {
+    margin-top: 130px;
+    padding-top: 50px;
+    font-family: 'Kufam', cursive, monospace;
+}
+
+.about-me {
+    margin-left: 150px;
+    margin-top: 260px;
+    padding: 50px;
+    height: 630px;
+    font-family: 'Kufam', cursive, monospace;
+}
+
+#profile-image{
+    float: left;
+    padding-left: 90px;
+}
+
+#profile-blurb {
+    float: right;
+    width: 500px;
+    padding-right: 100px;
+}
+
+.portfolio-section {
+    font-family: 'Raleway', sans-serif;
+    padding-bottom: 50px;
+    margin-top: 40px;
+    margin-bottom: 130px;
+}
+
+.contact-section {
+    font-family: 'Raleway', sans-serif;
+    height: 730px;
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+}
+
+form {
+    margin: auto;
+    padding: 20px;
+    width: 500px;
+    height: 200px;
+}
+
+.form-row {
+    margin: 10px;
+}
+
+#submit-button {
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #cecece;
+}
+
+footer {
+    padding: 50px;
+    background-color: #909090;
+    color: #fff;
+}
