@@ -19,12 +19,75 @@ h1 {
     font-size: 120px;
     color: #fff;    
     padding-top: 400px;
+    /*Shadow property*/
+    text-shadow: 1px 1px #1b1a30, 2px 2px #1b1a30, 3px 3px #1b1a30, 4px 4px #1b1a30, 5px 5px #1b1a30;
 }
 
 .main-site {
     margin-top: 50px;
     font-family: 'Raleway', sans-serif;
+    /*Background gradient*/
+    background: 
+        linear-gradient(
+            #fff, darkblue
+        );
 } 
+
+.togusa {
+    margin: auto;
+    width: 480px;
+    height: 240px;
+    background:
+        linear-gradient(
+            rgba(0, 184, 255, 0.45),
+            rgba(0, 184, 255, 0.45)
+        ),
+        url(../htmlFundamentals/img/gits_togusa.jpg) no-repeat, center;
+    border-radius: 25px;
+}
+
+a {
+    background-color: rgba(23, 151, 98, 0.822);
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    border-radius: 7px;
+    display: inline-block;
+    /*CSS3 transition properties*/
+    transition: background-color .5s, color .5s linear, border-radius 2s ease-out;
+}
+
+a:hover {
+    background-color: #696969;
+    color: black;
+    border-radius: 10px;
+}
+
+footer {
+    margin-top: 50px;
+    animation:  changeShift 5s infinite;
+}
+
+
+/*Animation properties, changeShift = name of animation*/
+@keyframes changeShift {
+    0%, 100% {
+        transform: translate(0, 0);
+        border-radius: 100px;
+        background-color: #d6b212;
+    }
+
+    20% {
+        transform: translate(200px, -400px) scale(0.6, 0.6);
+        border-radius: 0px;
+        background-color: #c40e9c;
+    }
+
+    50% {
+        transform: translate(500px, -700px) rotate(180deg);
+        background-color: #0fdf3cda;
+    }
+}
 
 .members {
     padding-bottom: 70px;
