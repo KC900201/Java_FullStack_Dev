@@ -11,3 +11,7 @@ p {
 .footer {
     height: 100px;
 }
+
+button {
+    margin-bottom: 20px;
+}
