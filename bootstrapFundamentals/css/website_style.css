@@ -1,0 +1,83 @@
+/* CSS style */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color:#fff;
+}
+
+a:hover {
+    text-decoration: none;
+    color:rgb(202, 230, 45);
+}
+
+header {
+    background-color: rgb(19, 175, 223);
+    height: 1000px;
+}
+
+nav li {
+    padding: 10px;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    text-decoration: none;
+    font-size: 14px;
+    padding-top: 18px;
+}
+
+.logo {
+    padding-top: 10px;
+    font-size: 50px;
+    font-family: 'Share Tech', sans-serif;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+#headerText {
+    color: #fff;
+    font-family: 'M PLUS 1p', sans-serif;
+    font-size: 80px;
+    text-align: center;
+    padding-top: 120px;
+}
+
+.blurb {
+    color: #fff;
+    font-size: 25px;
+    font-family: 'Roboto Slab', serif;
+}
+
+.img_gal {
+    height: 480px; 
+    width: 240px;
+}
+
+.thingsToDo {
+    font-family: 'Roboto Slab', serif;
+    font-weight: lighter;
+    padding: 50px 0px;
+}
+
+.img-gallery {
+    padding-bottom: 30px;
+}
+
+#gunpla {
+    display: block;
+    margin: auto;
+    width: 80%;
+}
+
+footer {
+    background-color: rgb(19, 175, 223);
+    font-family: 'Share Tech', sans-serif;
+    color: #fff;
+    height: 60px;
+    padding-top: 20px;
+    padding-left: 15px;
+}
