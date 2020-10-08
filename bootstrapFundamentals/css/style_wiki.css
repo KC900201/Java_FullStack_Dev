@@ -1,0 +1,20 @@
+/*
+* {
+    margin: 0;
+    padding: 0;
+}
+*/
+
+div {
+    display: block;
+}
+
+#logo {
+    width: 10em;
+    height: 160px;
+    margin-bottom: 1em;
+}
+
+html, body {
+    font-family: sans-serif;
+}
