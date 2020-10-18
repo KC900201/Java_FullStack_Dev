@@ -63,6 +63,10 @@ num2 = 0;
 
 console.log("Do while loop");
 do {
-    console.log(num2);
-    num2;
+    if(num2 === 5) {
+        break;
+    } else {
+        console.log(num2);
+        num2++;
+    }
 } while (num2 < 10)
